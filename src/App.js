@@ -1,4 +1,3 @@
-import { logDOM } from "@testing-library/react";
 import { useState } from "react";
 
 const initialFriends = [
@@ -101,7 +100,7 @@ function FriendsList({ friends, onSelection, selectedFriend }) {
 function Nav() {
   return (
     <div className="nav-bar">
-      <img src="public/title.svg" alt="Not Found" />
+      <img src={process.env.PUBLIC_URL + '/icon.svg'} alt="Not Found" />
     </div>
   );
 }
