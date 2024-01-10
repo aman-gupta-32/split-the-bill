@@ -100,7 +100,7 @@ function FriendsList({ friends, onSelection, selectedFriend }) {
 function Nav() {
   return (
     <div className="nav-bar">
-      <img src="icon.svg" alt="Nothing was Found" />
+      <img src="icon.svg" alt="Not Found" />
     </div>
   );
 }
